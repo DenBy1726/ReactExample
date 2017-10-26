@@ -5,6 +5,7 @@ import Time from './components/Time.jsx';
 import SwitchableButton from './components/SwitchableButton.jsx';
 import Hello from './components/Hello.jsx';
 import ItemsList from './components/ItemList.jsx';
+import UserForm from './components/forms/UserForm';
 
 ReactDOM.render(
     <DateComponent/>,
@@ -40,3 +41,8 @@ ReactDOM.render(
     <ItemsList data={propsValues} />,
     document.getElementById("items")
 );
+
+ReactDOM.render(
+    <UserForm title={"Форма ввода:"}/>,
+    document.getElementById("userform")
+)

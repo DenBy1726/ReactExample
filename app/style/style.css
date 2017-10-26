@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+html,body{
+    padding:0;
+    margin:0;
+    font-family: verdana, arial, sans-serif;
+    color: white;
+    position: relative;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height:1080px;
+}
+header{
+    height: 50px;
+    background-color: darkslategray;
+    top: 0;
+
+}
+
+footer{
+    height: 50px;
+    background-color: darkslategray;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+header,footer,#main{
+    width: 70%;
+    font-size: inherit;
+}
+
+
+#title{
+    text-align: center;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+#time{
+    margin-right: 5px;
+    font-size: 2vw;
+}
+
+#date{
+    margin-left: 5px;
+    font-size: 2vw;
+}
+
+#main{
+
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+}
+
+#items{
+    width:100%;
+    padding:15px 15px 0 0;
+}
+
+.contentDiv h2{
+    font-size: 2vw;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+
+}
+
+#items li{
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+#items ul{
+    padding-left: 30px;
+}
+
+
+.contentDiv{
+    margin-left: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#switchButton{
+    width: 100%;
+    padding: 5px;
+    margin: 0 5px 0 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width:100%;
+    height:100%;
+}
+form label{
+    width: 100%;
+    margin: 0 0 10px 0;
+    display: block;
+}
+
+form p{
+    width: 100%;
+}
