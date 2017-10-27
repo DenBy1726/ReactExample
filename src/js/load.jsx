@@ -6,6 +6,14 @@ import SwitchableButton from './components/SwitchableButton.jsx';
 import Hello from './components/Hello.jsx';
 import ItemsList from './components/ItemList.jsx';
 import UserForm from './components/forms/UserForm';
+import {
+    BrowserRouter,
+    Route,
+    Switch
+} from 'react-router-dom';
+import About from "./components/pages/about.js";
+import NotFound from "./components/pages/notFound.js";
+import Main from "./components/pages/main.js";
 
 ReactDOM.render(
     <DateComponent/>,
@@ -45,4 +53,7 @@ ReactDOM.render(
 ReactDOM.render(
     <UserForm title={"Форма ввода:"}/>,
     document.getElementById("userform")
-)
+);
+
+
+

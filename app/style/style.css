@@ -59,6 +59,38 @@ header,footer,#main{
 #date{
     margin-left: 5px;
     font-size: 2vw;
+    max-font-size: 10px;
+}
+
+.contentDiv h2{
+    font-size: 2vw;
+    margin: 0;
+    padding: 10px 0px 10px 0px;
+
+}
+
+
+#items li{
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+@media screen and (min-width: 750px) {
+    #time {
+        font-size: 12px;
+    }
+    #date {
+        font-size: 12px;
+    }
+
+    .contentDiv h2{
+        font-size: 18px;
+    }
+
+
+    #items li{
+        font-size: 12px;
+    }
 }
 
 #main{
@@ -74,20 +106,12 @@ header,footer,#main{
     padding:15px 15px 0 0;
 }
 
-.contentDiv h2{
-    font-size: 2vw;
-    margin: 0;
-    padding: 10px 0px 10px 0px;
 
-}
 
-#items li{
-    font-size: 1.5vw;
-    width: 100%;
-}
 
 #items ul{
     padding-left: 30px;
+    margin: 0px;
 }
 
 
